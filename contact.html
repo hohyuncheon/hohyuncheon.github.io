@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="ko" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOHYUN</title>
+    <link rel="stylesheet" href="./css/css.css" />
+    <script src="./js/js.js"></script>
+
+    <!-- 폰트관련 -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <!-- li폰트 -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital@1&family=Josefin+Sans:ital,wght@1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 미디어관련 -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <nav class="index">
+        <ul>
+          <li><a href="index.html" class="navbar" onclick="li(this)">HOME</a></li>
+          <li><a href="./about.html" class="navbar" onclick="li(this)">ABOUT</a></li>
+          <li><a href="./introduction.html" class="navbar" onclick="li(this)">INTRODUCTION</a></li>
+          <li><a href="./learning.html" class="navbar" onclick="li(this)">LEARNING</a></li>
+          <li><a href="./contact.html" class="navbar" onclick="li(this)">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <article>
+      <div>
+        <video
+          src="./video/address.mp4"
+          autoplay
+          muted
+          id="contactvideo"
+        ></video>
+      </div>
+      <div class="contacttext" id="contacttext">
+        <section id="ADDRESS">Address</section>
+        <div class="Addresstext">
+          Dongan-gu, Anyang-si, Gyeonggi-do,
+          <br />
+          Republic of Korea
+        </div>
+        <br />
+        <section id="PHONE">PHONE</section>
+        <div class="phonetext">+82 10-9134-2261</div>
+        <br />
+        <section id="EMAIL">EMAIL</section>
+        <div class="emailtext">lila230011@gmail.com</div>
+        <br />
+        <section id="WEB">WEB</section>
+        <div class="webtext">https://github.com/hohyuncheon</div>
+      </div>
+
+      <!-- <span id="show" onclick="showclick()"
+        >click here
+        <!-- <br />
+        <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
+      </span> -->
+    </article>
+    <footer id="contactfooter">
+      <p>2021 천호현</p>
+    </footer>
+  </body>
+</html>

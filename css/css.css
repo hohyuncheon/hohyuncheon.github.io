@@ -1,0 +1,131 @@
+header .index li {
+  color: white;
+  list-style-type: none;
+  float: left;
+  padding: 16px;
+  text-shadow: 0px 2px 5px rgb(230, 228, 228);
+  text-shadow: 0px 10px 5px rgb(184, 183, 183);
+  /* top: 40px; */
+}
+/* header div {
+  height: 20px;
+} */
+
+/* 클릭했을때 */
+header .navbar:active {
+  color: tomato;
+}
+
+/* 마우스올리면 */
+header .index li:hover {
+  text-decoration: underline;
+  border-bottom: 4px solid lightslategray;
+  text-shadow: 0px 10px 5px rgb(184, 183, 183);
+  transform: scale(1.2, 1.2);
+}
+/* 갔다오면 */
+header .navbar:visited {
+  color: white;
+}
+
+/* list*/
+.index {
+  position: absolute;
+  margin-left: 35%;
+  z-index: 1;
+  /* font-size: 30px; */
+  font-size: 250%;
+  font-weight: bold;
+  /* font-family: "Do Hyeon", sans-serif; */
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* 사진들어갈곳 */
+section#mainimage {
+  clear: both;
+  background-color: yellow;
+  width: 100%;
+  /* height: 500px; */
+  padding-bottom: 45%;
+}
+
+#otherfooter {
+  clear: both;
+  padding-top: 100px;
+}
+#contactfooter {
+  clear: both;
+  /* padding-top: 45%; */
+}
+
+article {
+  clear: both;
+}
+
+/* 
+///////////////////////////////////
+contact 페이지
+///////////////////////////////////
+ */
+
+#contactvideo {
+  /* position: relative; */
+  position: absolute;
+  width: 100%;
+}
+
+.contacttext {
+  position: absolute;
+  top: 30%;
+  left: 26%;
+  color: white;
+  /* visibility: hidden; */
+  font-size: 30px;
+  font-family: "Cabin", sans-serif;
+  animation-name: showtext;
+  animation-duration: 10.2s;
+}
+
+#show {
+  position: absolute;
+  z-index: 2;
+  top: 25%;
+  left: 57%;
+  color: yellow;
+  font-size: 29px;
+  border: 1px solid white;
+  border-radius: 75px;
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  animation-name: pause-between-iterations;
+  /* animation-duration: 10.2s; */
+  animation-duration: 1s;
+  opacity: 1;
+  padding-top: 16px;
+  font-family: "Cabin", sans-serif;
+}
+
+@keyframes pause-between-iterations {
+  0% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showtext {
+  0% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
