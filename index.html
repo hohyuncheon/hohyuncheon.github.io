@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOHYUN</title>
     <link rel="stylesheet" href="./css/css.css" />
+    <script src="./js/js.js"></script>
 
     <!-- 폰트관련 -->
     <link
@@ -22,31 +23,79 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body id="indexbody">
     <header>
       <nav class="index">
         <ul>
           <li><a href="index.html" class="navbar">HOME</a></li>
           <li><a href="./about.html" class="navbar">ABOUT</a></li>
-          <li><a href="./introduction.html" class="navbar">INTRODUCTION</a></li>
+          <li><a href="./introduce.html" class="navbar">INTRODUCE</a></li>
           <li><a href="./learning.html" class="navbar">LEARNING</a></li>
           <li><a href="./contact.html" class="navbar">CONTACT</a></li>
         </ul>
       </nav>
     </header>
-    <article>
       <div>
         <video
-          src="./video/address.mp4"
+          src="./video/play.mp4"
           autoplay
           muted
-          id="contactvideo"
+          loop
+          id="indextvideo"
         ></video>
       </div>
-    </article>
+      <div id="indextext">
+        <h1>HoHyun's WebSite</h1>
+        <div>The Full - Stack Developer HoHyun CHEON</div>
+      </div>
 
-    <footer id="mainfooter">
-      <p>2021 천호현</p>
-    </footer>
+      <div id="commentwrapper">
+
+        <span id="comment">If you log in, you can receive the latest update information.</span>
+      <input type="checkbox" id="menuicon">
+      <label for="menuicon" id="clickherelabel">
+        <span id="thiss" onclick="signinclick()">
+          Click here</span>
+      </label>
+    </div>
+      
+      <div id="subscribebar">
+        <div class="subscribeWrapper">
+        <div class="tri"></div>
+        
+        <input type="checkbox" id="closesidebar">
+        <label for="closesidebar" id="closesidebarlabel">
+          <span id="closesidebarid" onclick="closesidebar()">
+            close</span>
+
+        <div class="clickherebox" id="clickherebox">
+           <h1>Sign in</h1>
+           <div class="inputbox">
+            <input type="text" name="userid" id="userid" placeholder="userid">
+            <br>
+            <input type="text" name="userpassword" id="userpassword" placeholder="userpassword">
+            <input type="button" name="signin" id="signin" value="sign in" onclick="login()">
+           </div>
+          </div>
+
+          <input type="checkbox" id="showsignup">
+          <label for="showsignup" id="showsignuplabel">
+            <span id="showsign" onclick="signupclick()">
+              Create account</span>
+          </label>
+           
+           <div class="gotosignupbox" id="gotosignupbox">
+            <h1>Sign up</h1>
+             <div class="signupbox">
+              <input type="text" name="suuserid" id="suuserid" placeholder="userid">
+              <br>
+              <input type="text" name="suuserpassword" id="suuserpassword" placeholder="userpassword">
+              <input type="button" name="signup" id="signup" value="sign up" onclick="signup()">
+             </div>
+        </div>
+      </div>
+      </div>
+    </section>
+
   </body>
 </html>

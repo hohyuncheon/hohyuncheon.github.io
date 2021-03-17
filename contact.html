@@ -34,20 +34,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-  <body>
+  <body id="contactbody">
     <header>
       <nav class="index">
         <ul>
           <li><a href="index.html" class="navbar" onclick="li(this)">HOME</a></li>
           <li><a href="./about.html" class="navbar" onclick="li(this)">ABOUT</a></li>
-          <li><a href="./introduction.html" class="navbar" onclick="li(this)">INTRODUCTION</a></li>
+          <li><a href="./introduce.html" class="navbar" onclick="li(this)">INTRODUCE</a></li>
           <li><a href="./learning.html" class="navbar" onclick="li(this)">LEARNING</a></li>
           <li><a href="./contact.html" class="navbar" onclick="li(this)">CONTACT</a></li>
         </ul>
       </nav>
     </header>
     <article>
-      <div>
+      <div id="contactvideoback">
         <video
           src="./video/address.mp4"
           autoplay
@@ -55,6 +55,8 @@
           id="contactvideo"
         ></video>
       </div>
+      
+      <div class="contacttext" id="contactbackground"></div>
       <div class="contacttext" id="contacttext">
         <section id="ADDRESS">Address</section>
         <div class="Addresstext">
@@ -79,8 +81,5 @@
         <i class="fa fa-arrow-down" aria-hidden="true"></i> -->
       </span> -->
     </article>
-    <footer id="contactfooter">
-      <p>2021 천호현</p>
-    </footer>
   </body>
 </html>
