@@ -15,6 +15,10 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
+
+    <!--Noto Sans -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <!-- li폰트 -->
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -59,23 +63,21 @@
       </label>
     </div>
       
-      <div id="subscribebar">
-        <div class="subscribeWrapper">
+    <div id="subscribebar">
         <div class="tri"></div>
-        
         <input type="checkbox" id="closesidebar">
         <label for="closesidebar" id="closesidebarlabel">
-          <span id="closesidebarid" onclick="closesidebar()">
+        <span id="closesidebarid" onclick="closesidebar()">
             close</span>
 
         <div class="clickherebox" id="clickherebox">
-           <h1 id="signinh1">Sign in</h1>
-           <div class="inputbox">
+          <h1 id="signinh1">Sign in</h1>
+          <div class="inputbox">
             <input type="text" name="userid" id="userid" placeholder="userid">
             <br>
             <input type="text" name="userpassword" id="userpassword" placeholder="userpassword">
             <input type="button" name="signin" id="signin" value="sign in" onclick="login()">
-           </div>
+          </div>
           </div>
 
           <input type="checkbox" id="showsignup">
@@ -83,19 +85,21 @@
             <span id="showsign" onclick="signupclick()">
               Create account</span>
           </label>
-           
-           <div class="gotosignupbox" id="gotosignupbox">
+          
+          <div class="gotosignupbox" id="gotosignupbox">
             <h1>Sign up</h1>
-             <div class="signupbox">
+            <div class="signupbox">
               <input type="text" name="suuserid" id="suuserid" placeholder="userid">
               <br>
               <input type="text" name="suuserpassword" id="suuserpassword" placeholder="userpassword">
               <input type="button" name="signup" id="signup" value="sign up" onclick="signup()">
-             </div>
+            </div>
         </div>
       </div>
-      </div>
-    </section>
-
+      <footer>
+        <span class="copyright" id="indexcopy">
+        Copyright 2021. 천호현 all rights reserved.
+        </span>
+      </footer>
   </body>
 </html>
