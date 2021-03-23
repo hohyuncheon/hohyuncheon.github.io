@@ -5,7 +5,7 @@ https://hohyuncheon.github.io/
 
 ## 1. 구현영상
 
-[![Watch the video](./readMe/video.png)](https://www.youtube.com/watch?v=hR5nRRUttQA)
+[![Watch the video](./readme/video.png)](https://www.youtube.com/watch?v=hR5nRRUttQA)
 
 ## 2. 개발기간
 
