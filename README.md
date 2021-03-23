@@ -3,9 +3,9 @@
 
 https://hohyuncheon.github.io/
 
-## 1. 개요
+## 1. 구현영상
 
-https://www.youtube.com/watch?v=hR5nRRUttQA
+[![Watch the video](./readMe/video.png)](https://www.youtube.com/watch?v=hR5nRRUttQA)
 
 ## 2. 개발기간
 
