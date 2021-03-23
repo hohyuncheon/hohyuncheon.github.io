@@ -46,27 +46,27 @@ web-storage를 통한 회원가입 및 로그인 페이지 구현.
 ### index 페이지
 ##### 목록페이지에는 hover시 애니메이션 효과와 background로는 영상을 넣었습니다.
 
-![](./ReadMe/index.png)
+![](./readme/index.png)
 - - -
 ### login 기능
 ##### 하단에 사이드바를 이용하여 클릭시 로그인, 회원가입 화면이 translate하게 구현하였습니다.
-![](./ReadMe/login.png)
+![](./readme/login.png)
 - - -
 ### about 페이지
 ##### 사진에 hover시 확대되는 효과를 주었고 text파일에는 애니메이션효과로 위아래 자동움직임을 주었습니다.
-![](./ReadMe/about.png)
+![](./readme/about.png)
 - - -
 ### introduce 페이지
 ##### radio 버튼을 이용하여 버튼 클릭시 사진에 슬라이드쇼 기능을 만들었습니다.
-![](./ReadMe/introduce.png)
+![](./readme/introduce.png)
 - - -
 ### learning 페이지
 ##### hover시 자연스럽게 움직임을 주었고 클릭시 jquery toggle을 이용하여 나타나고 없어지게 구현하였습니다. 
-![](./ReadMe/learning.png)
+![](./readme/learning.png)
 - - -
 ### contact 페이지
 ##### 구글어스 동영상을 제작하여 지정된 주소를 확대되게 배경을 주었고 애니메이션 효과로 text 파일 생성을 지연하였습니다.
-![](./ReadMe/contact.png)
+![](./readme/contact.png)
 - - -
 
 
